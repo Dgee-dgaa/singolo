@@ -183,8 +183,8 @@ a {
 
 .services__text {
     font-size: 18px;
-    line-height: 1.6em;
-    letter-spacing: 0.007em;
+    line-height: 1.7em;
+    letter-spacing: 0.0005em;
     font-weight: 300;
     padding-top: 20px;
     padding-bottom: 47px;
@@ -201,7 +201,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: top;    
-    padding-bottom: 27px;
+    padding-bottom: 29px;
     width: 300px;
     
 }

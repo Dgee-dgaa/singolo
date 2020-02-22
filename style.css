@@ -187,7 +187,7 @@ a {
     letter-spacing: 0.0005em;
     font-weight: 300;
     padding-top: 20px;
-    padding-bottom: 47px;
+    padding-bottom: 44px;
 }
 
 .services__items {
@@ -201,9 +201,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: top;    
-    padding-bottom: 29px;
-    width: 300px;
-    
+    padding-bottom: 28px;
+    width: 300px;    
 }
 
 .service-icon {

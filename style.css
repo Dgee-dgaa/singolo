@@ -228,7 +228,8 @@ a {
 .service-text {
     padding-top: 8px;
     line-height: 1.8em;   
-    overflow-wrap: normal;  
+    overflow-wrap: normal; 
+    word-wrap: break-word; 
 }
 
 

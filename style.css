@@ -211,6 +211,7 @@ a {
     border: 2px solid #666d89;
     border-radius: 50%;
     display: flex;
+    align-items: center;
 }
 
 .service-icon img {

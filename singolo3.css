@@ -138,11 +138,18 @@ a {
     letter-spacing: -0.015em;
 }
 
-textarea::placeholder, input::placeholder  {
+::placeholder {
     color: #f48c8f;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     letter-spacing: 0.002em;    
+}
+
+::-ms-input-placeholder {
+    color: #f48c8f;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.002em;   
 }
 
 .quote__form input:nth-child(3) {
@@ -162,6 +169,7 @@ textarea::placeholder, input::placeholder  {
 
 .quote__form textarea {
     width: 602px;
+    overflow: hidden;
 }
 
 input:active, input:focus,

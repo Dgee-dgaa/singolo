@@ -16,13 +16,13 @@
                 lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, 
                 tortor mauris condimentum nibh.
             </p>
-            <form action="#" method="POST" class="quote__form">
+            <form action="#" method="post" class="quote__form">
                 <input type="text" name="user_name" id="user_name" placeholder="Name (Required)" required>
                 <input type="email" name="email" id="email" placeholder="Email (Required)" required>
                 <input type="text" name="Subject" id="Subject" placeholder="Subject">
                 <textarea class="message" name="message" id="message" rows="13" 
                     placeholder="Describe your project in detail..."></textarea>
-                <button type="submit">Get a Quote</button>
+                <button>Get a Quote</button>
             </form>
             <div class="contacts">
                 <h2 class="contacts__title">Contact Information</h2>
@@ -49,7 +49,9 @@
                         <div class="details__icon">
                             <img src="assets/img/mail.png" alt="E-mail">
                         </div>
-                        <p class="details__text">info@singolo.com</p>
+                        <p class="details__text">
+                            <a href="mailto:info@singolo.com">info@singolo.com</a> 
+                        </p>
                     </div>
                 </div>
             </div>

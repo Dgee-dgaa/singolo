@@ -9,27 +9,23 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <a href="#" class="logo">
-                Singolo<span>*</span>   
-            </a>
+            <h1>
+                <a href="#" class="logo">
+                    Singolo<span>*</span>   
+                </a>
+            </h1>            
             <nav class="header__navigation">
                 <ul class="navigation">
                     <li>
                         <a href="#">HOME</a>
-                        <span>·</span>
                     </li>
                     <li>
                         <a href="#">Services</a>
-                        <span>·</span>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
-                        <span>·</span>
-                    </li>
+                        <a href="#">Portfolio</a></li>
                     <li>
-                        <a href="#">About</a>
-                        <span>·</span>
-                    </li>
+                        <a href="#">About</a></li>
                     <li>
                         <a href="#">Contact</a>
                     </li>
@@ -37,23 +33,35 @@
             </nav>
         </div>
     </header>
+    
+
     <section id="slider" class="slider">
         <div class="wrapper">
             <a href="#" class="slider__icon_left">
                 <img src="assets/img/left.png" alt="prev">
-            </a>
-            <div class="phones">
-                <img class="phone1" src="assets/img/cam1.png" alt="cam1">
-                <img class="phone2" src="assets/img/cam2.png" alt="cam2">
-            </div>            
+            </a>            
+            <div class="slider__phones">
+                <div class="phone1">
+                    <img src="assets/img/Phone1_shadow.png" alt="Phone1-shadow" class="phone1__shadow">
+                    <img src="assets/img/phone1.png" alt="Phone1" class="phone1__base">
+                    <img src="assets/img/phone1_screen.png" alt="Phone1-screen" class="phone1__screen">
+                </div>
+                <div class="phone2">
+                    <img src="assets/img/Phone2_shadow.png" alt="Phone2-shadow" class="phone2__shadow">
+                    <img src="assets/img/phone2.png" alt="Phone2" class="phone2__base">
+                    <img src="assets/img/phone2_screen.png" alt="Phone2-screen" class="phone2__screen">
+                </div>
+            </div>                                          
             <a href="#" class="slider__icon_right">
                 <img src="assets/img/right.png" alt="next">
-            </a>
+            </a>            
         </div>
     </section>
+
+
     <section id="services" class="services">
         <div class="wrapper">
-            <h1 class="services__title">Our Services</h1>
+            <h2 class="services__title">Our Services</h2>
             <p class="services__text">Fusce dapibus, tellus ac cursus commodo, tortor 
                 mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor
                  ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
@@ -63,7 +71,7 @@
                         <img src="assets/img/pen.png" alt="Custom Design">
                     </div>
                     <div class="service__description">
-                        <h2 class="service-title">Custom Design</h2>
+                        <h3 class="service-title">Custom Design</h3>
                         <p class="service-text">
                             Curabitur vestibulum eget mauris quis laoreet. 
                             Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
@@ -81,7 +89,7 @@
                         <img src="assets/img/bulb.png" alt="Inovative Ideas">
                     </div>
                     <div class="service__description">
-                        <h2 class="service-title">Inovative Ideas</h2>
+                        <h3 class="service-title">Inovative Ideas</h3>
                         <p class="service-text">
                             Quisque luctus, quam eget molestie commodo, 
                             lacus purus cursus purus, nec rutrum tellus dolor id lorem.
@@ -93,7 +101,7 @@
                         <img src="assets/img/heart.png" alt="Love Is The Answer">
                     </div>
                     <div class="service__description">
-                        <h2 class="service-title">Love Is The Answer</h2>
+                        <h3 class="service-title">Love Is The Answer</h3>
                         <p class="service-text">
                             Nulla sed nunc et tortor luctus faucibus. 
                             Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
@@ -105,7 +113,7 @@
                         <img src="assets/img/phone.png" alt="Responsive Layout">
                     </div>
                     <div class="service__description">                        
-                        <h2 class="service-title">Responsive Layout</h2>
+                        <h3 class="service-title">Responsive Layout</h3>
                         <p class="service-text">
                             Sed porttitor placerat rhoncus. In at nunc tellus. 
                             Maecenas blandit nunc ligula. Praesent elit leo.
@@ -117,7 +125,7 @@
                         <img src="assets/img/bubble.png" alt="Support">
                     </div>
                     <div class="service__description">
-                        <h2 class="service-title">24 / 7 Support</h2>
+                        <h3 class="service-title">24 / 7 Support</h3>
                         <p class="service-text">
                             Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. 
                             Nulla a sem erat. Pellentesque egestas venenatis lorem .
@@ -129,7 +137,7 @@
                         <img src="assets/img/star.png" alt="Feel Like A Star">
                     </div>
                     <div class="service__description">
-                        <h2 class="service-title">Feel Like A Star</h2>
+                        <h3 class="service-title">Feel Like A Star</h3>
                         <p class="service-text">
                             Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. 
                             Fusce vitae aliquam tellus.
@@ -139,5 +147,295 @@
              </div>
         </div>
     </section>
+
+
+    <section class="portfolio">
+        <div class="wrapper">
+            <h2 class="porfolio__title">Portfolio</h2>
+            <p class="portfolio__text">
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, 
+                eget lacinia odio sem nec elit.
+            </p>
+            <div class="filter">
+                <div class="filter__name">
+                    <a href="#">All</a>
+                </div>
+                <div class="filter__name">
+                    <a href="#">Web Design</a>
+                </div>
+                <div class="filter__name">
+                    <a href="#">Graphic Design</a>
+                </div>
+                <div class="filter__name">
+                    <a href="#">Artwork</a>
+                </div>
+            </div>
+            <ul class="portfolio__works">
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-1.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-2.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-3.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-4.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-5.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-6.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-7.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-8.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-9.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-10.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-11.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-12.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-12.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-12.png" alt="work1">
+                    </a>
+                </li>
+                <li class="example">
+                    <a href="#">
+                        <img src="assets/img/Img-12.png" alt="work1">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section class="about-us">
+        <div class="wrapper">
+            <h2 class="about-us__title">About Us</h2>
+            <p class="about-us__text">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
+                Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget 
+                lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, 
+                tortor mauris condimentum nibh.
+            </p>
+            <div class="about-us__personal">
+                <div class="personal_item">
+                    <img class="personal__image" src="assets/img/photo 1.png" alt="personal_1">
+                    <h3 class="personal__name">Adam Jensen</h3>   
+                    <p class="personal__text">
+                        Quisque luctus, quam eget molestie commodo, lacus purus 
+                        cursus purus, nec rutrum tellus dolor id lorem.
+                    </p>
+                    <div class="personal__links links">
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/google.png" alt="google">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/twitter.png" alt="twitter">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="personal_item">
+                    <img class="personal__image" src="assets/img/photo 2.png" alt="personal_1">
+                    <h3 class="personal__name">Desmond Miles</h3>   
+                    <p class="personal__text">
+                        Curabitur vestibulum eget mauris quis laoreet. 
+                        Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+                    </p>
+                    <div class="personal__links">
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/google.png" alt="google">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/twitter.png" alt="twitter">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="personal_item">
+                    <img class="personal__image" src="assets/img/photo 3.png" alt="personal_1">
+                    <h3 class="personal__name">Scolara Visari</h3>   
+                    <p class="personal__text">
+                        Nulla sed nunc et tortor luctus faucibus. 
+                        Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                    </p>
+                    <div class="personal__links">
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/google.png" alt="google">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/twitter.png" alt="twitter">
+                            </a>
+                        </div>
+                        <div class="links__item">
+                            <a href="#">
+                                <img src="assets/img/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+
+    <section class="quote">
+        <div class="wrapper">
+            <h2 class="quote__title">Get a Quote</h2>
+            <p class="quote__text">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
+                Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget 
+                lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, 
+                tortor mauris condimentum nibh.
+            </p>
+            <form action="#" method="post" class="quote__form">
+                <input type="text" name="user_name" id="user_name" placeholder="Name (Required)" required>
+                <input type="email" name="email" id="email" placeholder="Email (Required)" required>
+                <input type="text" name="Subject" id="Subject" placeholder="Subject">
+                <textarea class="message" name="message" id="message" rows="13" 
+                    placeholder="Describe your project in detail..."></textarea>
+                <button>Submit</button>
+            </form>
+            <div class="contacts">
+                <h3 class="contacts__title">Contact Information</h3>
+                <p class="contacts__text">
+                    Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. 
+                    Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
+                    Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, 
+                    et consequat felis. 
+                </p>
+                <div class="contacts__details">
+                    <div class="contcts__item">
+                        <div class="details__icon">
+                            <img src="assets/img/location.png" alt="Adress">
+                        </div>
+                        <p class="details__text">Elm St. 14/05 Lost City</p>
+                    </div>
+                    <div class="contcts__item">
+                        <div class="details__icon">
+                            <img src="assets/img/phone_icon.png" alt="Phone">
+                        </div>
+                        <p class="details__text">03528 331 86 35</p>
+                    </div>
+                    <div class="contcts__item">
+                        <div class="details__icon">
+                            <img src="assets/img/mail.png" alt="E-mail">
+                        </div>
+                        <p class="details__text">
+                            <a href="mailto:info@singolo.com">info@singolo.com</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    
+    <footer>
+        <div class="wrapper">
+            <div class="footer__info">
+                <p class="footer__copyright">&copy Copyright 2013</p>
+                <div class="footer__links links">
+                    <div class="links__item">
+                        <a href="#">
+                            <img src="assets/img/facebook.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="links__item">
+                        <a href="#">
+                            <img src="assets/img/google.png" alt="google">
+                        </a>
+                    </div>
+                    <div class="links__item">
+                        <a href="#">
+                            <img src="assets/img/twitter.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="links__item">
+                        <a href="#">
+                            <img src="assets/img/linkedin.png" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </footer>
 </body>
 </html>

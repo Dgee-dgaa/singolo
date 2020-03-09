@@ -1,2 +1,2 @@
 # singolo
-https://Dgee-dgaa.github.io/singolo/cv
+https://Dgee-dgaa.github.io/singolo
